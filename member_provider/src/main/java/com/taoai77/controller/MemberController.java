@@ -24,6 +24,7 @@ public class MemberController {
                 "server.port:"+port);
     }
 
+
     @RequestMapping("/getOtherAllMember")
     public List<String> getOtherAllMember(){
         log.info("正在延迟"+port+"端口号的接口...");
